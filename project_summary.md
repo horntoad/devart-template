@@ -6,7 +6,7 @@ DigitalCanvas
 Mahorney, John, horntoad
 
 ## Description
-Develop, document, and demonstrate a digital canvas alternative for a standard framed canvas used for wall art.  I believe a breakthrough in the use of digital wall art could be made if a low cost, easy to use, open source digital canvas was available.  On the surface, this may not seem to push the limits of technology.  However, I do not think it will be all that easy to do this in an elegant manner.       
+Develop, document, and demonstrate a digital canvas alternative for standard framed canvas wall art.  I believe a breakthrough in the use of digital wall art could be made if a low cost, easy to use, open source digital canvas was available.  On the surface, this may not seem to push the limits of technology.  However, I do not think it will be all that easy to do this in an elegant manner.       
  
 Project Goals
 
@@ -15,59 +15,84 @@ Project Goals
 2  digital canvas will hang (with wire) just like a standard framed canvas
 
 3  digital canvas operates from power button
+
 3.1  no remote
+	
 3.2  no keyboard
-3.3  no mouse  
+	
+3.3  no mouse
+	
 3.4  full screen artwork with nothing else ever showing (kiosk mode)
      
 4  open source hardware
 
 5  open source software
+
  
 
 HARDWARE
 
-raspberry pi
-  open source
-  low cost (about $50 with SD card & USB cable)
- 	can be powered from HDTV USB connector
+1  raspberry pi
+
+1.1  open source
+  
+1.2  low cost (about $50 with SD card plus USB cable)
+  
+1.3 	can be powered from HDTV USB connector
 
 
-39 inch VIZIO HDTV 1080p (1920 x 1080 pix)
-  not open source (standard electronics)
- 	reasonable size canvas (34 x 19 inches )
- 	reasonable cost (about $300 US - refurbished)
- 	HDMI connector next to USB connector (power for raspberry pi)
- 	recessed area to mount raspberry pi (allows flush wall mount)
+2  VIZIO HDTV 39 inch - 1080p (1920 x 1080 pix)
+
+2.1  not open source (standard electronics)
+
+2.2  reasonable size canvas (34 x 19 inches )
+ 	
+2.3  reasonable cost (about $300 US - refurbished)
+ 	
+2.4  HDMI connector next to USB connector (power for raspberry pi)
+ 	
+ 2.5  recessed area to mount raspberry pi (allows flush wall mount)
       	 
 SOFTWARE
 
-raspbian operating system (recommended os)  
-  open source
+1  raspbian operating system (recommended os)
 
-chromium browser
- 	open source
-	allows use of popular web programming tools
-	familiar GUI and easy to use
+1.1  open source
+
+2  chromium browser
+
+2.1  open source
+ 	
+2.2  allows use of popular web programming tools
+	
+2.3  familiar GUI and easy to use
       			      	
-javascript / HTML5 canvas
- 	open source
- 	many people already know and use             	
- 	easy to learn and can be used for other tasks
+3  javascript / HTML5 canvas
+
+3.1  open source
+ 	
+3.2  many people already know and use
+ 	
+3.3  easy to learn and can be used for other tasks
 
                						
-software alternatives considered
+4  software alternatives considered
 
-	iceweasel browser (firefox)
-	  worked (with R-kiosk addon)
-	  R-kiosk addon severely impacts development work
-	  runs 3x slower than chromium on my artwork code 
+4.1  iceweasel browser (firefox)
+
+4.2  worked (with R-kiosk addon)
+	  
+4.3  R-kiosk addon severely impacts development work
+	  
+4.4  runs 3x slower than chromium on my artwork code 
 	
-	python (raspberry pi “default” language)
-	  limited graphics capability
+5  python (raspberry pi “default” language)
+
+5.1  limited graphics capability
 		
-  processing (excellent for artwork)
-	  unable to get it running on my system
+6  processing (excellent for artwork)
+
+6.1  unable to get it running on my system
 
  
 DEMONSTRATION ARTWORK
