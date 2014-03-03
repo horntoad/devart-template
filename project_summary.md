@@ -5,9 +5,12 @@ DigitalCanvas
 Mahorney, John, horntoad
 
 ## Description
-Develop a digital canvas for wall art and demonstrate with some digital art. Digital canvas could be hung on wall and run 24/7 until hardware failure. Power switch is the only control available.        
+Phase one - develop a DigitalCanvas for wall art and demonstrate with some digital art. DigitalCanvas could be hung on wall and run 24/7 until hardware failure. Power switch is the only control available.
 
-PROJECT GOALS
+Phase two - add sensors to DigitalCanvas so that digital artwork can interact with its surroundings.
+
+
+PHASE ONE PROJECT GOALS
 
 1 material cost no more than quality custom framed canvas
 
@@ -20,7 +23,7 @@ PROJECT GOALS
 5 no "screen burn in" 
 
 
-HARDWARE
+PHASE ONE HARDWARE
 
 1 raspberry pi
 
@@ -33,7 +36,7 @@ HARDWARE
 5 recessed area to mount raspberry pi (allows flush wall mount)
 
 
-SOFTWARE
+PHASE ONE SOFTWARE
 
 1 raspbian operating system
 
@@ -42,6 +45,28 @@ SOFTWARE
 3 HTML 5 canvas
 
 4 javascript
+
+
+PHASE TWO GOALS
+
+1 choose stimulus for artwork interaction with its surroundings
+
+2 develop hardware for stimulus
+
+3 develop interactive artwork software
+
+
+PHASE TWO HARDWARE
+
+1 to be determined
+
+
+PHASE TWO SOFTWARE
+
+1 modify artwork code developed in phase one
+
+
+
 
 ## Link to Prototype
 NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
@@ -67,4 +92,3 @@ NOTE: For additional images you can either use a relative link to an image on th
 
 ##https://www.youtube.com/watch?v=30yGOxJJ2PQ
 
-F/Untitled
